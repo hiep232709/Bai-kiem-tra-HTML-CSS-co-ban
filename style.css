@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+img {
+  width: 100%;
+  vertical-align: middle;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(238, 239, 241);
+}
+/* COMMON */
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+.poppins--100 {
+  font-weight: 100;
+}
+.poppins--200 {
+  font-weight: 200;
+}
+.poppins--300 {
+  font-weight: 300;
+}
+.poppins--400 {
+  font-weight: 400;
+}
+.poppins--500 {
+  font-weight: 500;
+}
+.poppins--600 {
+  font-weight: 600;
+}
+.poppins--700 {
+  font-weight: 700;
+}
+.poppins--800 {
+  font-weight: 900;
+}
+/* HEADER */
+.header {
+  background-color: rgb(238, 239, 241);
+  display: flex;
+  position: fixed;
+  width: 1140px;
+  padding-top: 20px;
+  justify-content: space-between;
+  z-index: 1;
+}
+.logo-part {
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+.logo {
+  display: block;
+  width: 35px;
+}
+.web-name {
+  display: block;
+  width: 166px;
+  font-size: 16px;
+  padding-left: 15px;
+  line-height: 28px;
+}
+.header-nav {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  margin-right: 30px;
+}
+.header-nav-item-link {
+  font-size: 15px;
+  line-height: 20px;
+  text-decoration: none;
+  color: rgb(26, 27, 31);
+}
+.view-work-button {
+  background-color: rgb(47, 49, 55);
+  width: 129px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: fill;
+}
+.view-work-button-link {
+  font-size: 15px;
+  line-height: 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  cursor: pointer;
+}
+/* MAIN */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 188px;
+}
+.introdution {
+  display: flex;
+  position: relative;
+  width: 1140px;
+}
+.avatar {
+  width: 419px;
+  border-radius: 15px;
+}
+.introdution-para {
+  margin-left: 50px;
+}
+.hi-there {
+  display: block;
+  position: absolute;
+  top: 97px;
+  left: 469px;
+  font-size: 80px;
+  line-height: 90px;
+}
+.para {
+  display: block;
+  position: absolute;
+  top: 197px;
+  left: 469px;
+  font-size: 25px;
+  line-height: 39px;
+}
+
+.career {
+  margin-top: 190px;
+  display: flex;
+  gap: 40;
+}
+.my-career-so-far {
+  width: 660px;
+}
+.title {
+  color: rgb(26, 27, 31);
+  font-size: 44px;
+  line-height: 62px;
+}
+.para-content {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  line-height: 32px;
+}
+.job-tag {
+  display: flex;
+  width: 440px;
+  margin-left: 40px;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.job-tag-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1.35849px solid rgb(206, 209, 223);
+  border-radius: 8px;
+  background-color: (238, 239, 241);
+}
+.tag-name {
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.on-working {
+  width: 1140px;
+  margin-top: 120px;
+}
+.woman-and-content {
+  display: flex;
+  gap: 40px;
+}
+.woman {
+  position: relative;
+  width: 255px;
+}
+.woman-pic {
+  position: absolute;
+  top: 20px;
+  width: 150px;
+  border-radius: 9999px;
+}
+.woman-name {
+  position: absolute;
+  top: 180px;
+  color: rgb(26, 27, 31);
+  font-size: 20px;
+  line-height: 34px;
+}
+.woman-job {
+  position: absolute;
+  top: 214px;
+  color: rgb(26, 27, 31);
+  font-size: 16px;
+  line-height: 28px;
+}
+.content {
+  width: 845px;
+}
+.para-content-on-working {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  line-height: 32px;
+  padding-top: 30px;
+}
+
+.get-in-touch {
+  position: relative;
+  width: 1140px;
+}
+.question{
+    position: absolute;
+    width: 502px;
+    top:94px;
+    left: 59px;
+    font-size: 64px;
+}
+.small-form-name{
+    position: absolute;
+    top: 79px;
+    left: 577px;
+}
+.small-form-email{
+    position: absolute;
+    top: 79px;
+    left: 843px;
+}
+.form-name{
+    font-size: 12px;
+    color: rgb(143, 146, 158);
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+.small-form-input{
+    width: 236px;
+    height: 60px;
+    border-radius: 8px;
+    border: 0px solid rgb(228, 228, 228)
+}
+.big-form-input{
+    width: 502px;
+    height: 150px;
+    border-radius: 8px;
+    border: 0px solid rgb(228, 228, 228)
+}
+.big-form{
+    position: absolute;
+    top: 217px;
+    left: 577px;
+}
+
+
+
+
+.footer{
+    width: 1140px;
+    height: 206px;
+}
